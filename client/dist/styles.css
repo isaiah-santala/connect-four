@@ -1,0 +1,31 @@
+body {
+    display: flex;
+    justify-content: center;
+    padding: 1%;
+}
+.turn {
+    text-align: center;  
+}
+.board {
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    height: 375px;
+    background-color: rgb(251, 249, 104);
+    margin-top: 10%;
+    border-style: inset;
+    border-width: 10px;
+    border-color: rgb(36, 40, 255);
+}
+.column {
+    margin: .5%;
+    margin-top: 12%; 
+}
+.button {
+    font-size: 15px;
+    border-radius: 20%;
+}
+.token {
+    font-size: 20px;
+    text-align: center;
+}
